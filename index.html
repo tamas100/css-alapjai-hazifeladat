@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS gyakorlás</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="icon" type="x-icon" href="./images/favicon.ico" />
   </head>
@@ -45,16 +51,60 @@
             </li>
           </ul>
         </li>
-        <li><a href="./contact.html">Kapcsolat</a></li>
+        <li>
+          <a href="https://tamas100.github.io/portfolio/">Portfólió oldalam</a>
+        </li>
+        <li><a href="#contact">Kapcsolat</a></li>
       </ul>
     </nav>
     <main>
-    
+      <section>
+        <header>
+          <h2 id="contact">Kapcsolat</h2>
+        </header>
+        <form
+          action="https://formspree.io/f/xpzejnoz"
+          method="post"
+          class="contact-form"
+        >
+          <label>
+            Vezetéknév*:
+            <input
+              type="text"
+              name="last-name"
+              placeholder="Vezetéknév"
+              required
+            />
+          </label>
+          <label>
+            Keresztnév*:
+            <input
+              type="text"
+              name="firts-name"
+              placeholder="Keresztnév"
+              required
+            />
+          </label>
+          <label>
+            E-mail cím*:
+            <input type="text" name="email" placeholder="E-mail cím" required />
+          </label>
+          <label>
+            Üzenet:
+            <textarea name="message" cols="30" rows="10">
+Hagyj üzenetet!</textarea
+            >
+          </label>
+          <p>A csillaggal (*) jelölt mezők kitöltése kötelező!</p>
+        </form>
+      </section>
     </main>
     <footer>
       <a href="#home">Az oldal tetejére</a>
       <p>
-        2023 Ezt az oldalt <a href="mailto:t.kis502@gmail.com">Kis Tamás</a> készítette. &copy; Minden jog fenntartva
+        2023 Ezt az oldalt
+        <a href="mailto:t.kis502@gmail.com">Kis Tamás</a> készítette. &copy;
+        Minden jog fenntartva
       </p>
     </footer>
   </body>
