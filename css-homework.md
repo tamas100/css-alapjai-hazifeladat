@@ -1,8 +1,8 @@
-# Feladatok:
+# Feladatok
 
 1. - [x] Menj fel három általad gyakran látogatott weboldalra. Gyakorold a Google Chrome Developer Tools használatát azzal, hogy pontosan megnézed, honnan ered a főcím és a főcím alatti első szöveges bekezdés betűmérete. Készíts jegyzetet!
-   
-   ## 444.hu
+
+## 444.hu
 
     h1  
     osztály
@@ -92,18 +92,18 @@
    rgb(120, 120, 120) ~~fehér~~  szürke
  
 6. Hozz létre egy HTML oldalt, amelyben minden korábban tanuló elem szerepel. Add hozzá a következő stílusokat:
-   - [ ] Aláhúzott, félkövér, dőlt betűk
-   - [ ] Betűméret állítása, használj rem mértékegységet
-   - [ ] Google Fonts-ról vett betűtípus
-   - [ ] Balra, jobbra, középre igazított szöveg, sorkizárt szöveg
-   - [ ] Block, inline, inline-block elemek
-   - [ ] Rendezett és rendezetlen lista stílusok
-   - [ ] Csinálj egy három hasábos szöveget, mintha újságot olvasnál
-   - [ ] Az előző feladatban az egyes hasáboknak legyen háttérszíne
-   - [ ] Margó, padding, border állítása
-   - [ ] Középre igazított szöveg margin-left és margin-right segítségével
-   - [ ] Lekerekített border (border-radius)
-7. - [ ] Hozd létre a következő táblázatot HTML és CSS segítségével:
+   - [x] Aláhúzott, félkövér, dőlt betűk
+   - [x] Betűméret állítása, használj rem mértékegységet
+   - [x] Google Fonts-ról vett betűtípus
+   - [x] Balra, jobbra, középre igazított szöveg, sorkizárt szöveg
+   - [x] Block, inline, inline-block elemek
+   - [x] Rendezett és rendezetlen lista stílusok
+   - [x] Csinálj egy három hasábos szöveget, mintha újságot olvasnál
+   - [x] Az előző feladatban az egyes hasáboknak legyen háttérszíne
+   - [x] Margó, padding, border állítása
+   - [x] Középre igazított szöveg margin-left és margin-right segítségével
+   - [x] Lekerekített border (border-radius)
+7. - [x] Hozd létre a következő táblázatot HTML és CSS segítségével:
 8. - [ ] Nézd meg a Bootswatch Lux nevű theme-jét (​https://bootswatch.com/lux/​).  
    A theme különböző web komponenseket tesz elérhetővé a számodra, amelyeket egy designercsapat már létrehozott. Ahhoz, hogy megszokd a jól kinéző weboldalak szerkesztését, próbáld meg magadtól létrehozni a theme-ben található elemeket minél pontosabban.  
    Tipp: ha nehéz a feladat, a Google Chrome Developer Tools-ban meg tudod lesni a megoldást. A stílusokat osztályokkal (class) add hozzá amegfelelő HTML elemekhez. Hozd létre a következő elemeket:  

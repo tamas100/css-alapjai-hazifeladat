@@ -1,10 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-* {
+.body-margin {
+  margin: 8px;
+}
+
+p,
+a,
+label,
+span,
+div,
+li,
+th,
+td,
+input,
+textarea {
+  font-size: 1.6rem;
+  margin: 1.12rem 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 0.67rem 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin: 0.75rem 0;
+}
+
+h3 {
+  font-size: 1.872rem;
+  margin: 1rem 0;
+}
+
+.navbar * {
   margin: 0;
-  padding: 0;
 }
 
 .navbar ul {
@@ -66,4 +104,115 @@ body {
   left: 100%;
   top: 0;
   display: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.div-textformat {
+  background-color: lightgrey;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.poultry {
+  display: inline-block;
+  margin-left: 20px;
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+  background-color: lightgrey;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.newspaper {
+  margin: 25px auto;
+  background-color: lightgrey;
+  width: 80%;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 0px;
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: calc(33.33% - 20px);
+  height: calc(100% - 20px);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+  background-color: beige;
+}
+
+.margin-center {
+  width: 40px;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.table-practice {
+  width: 30%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+}
+
+thead {
+  background-color: #26a69a;
+}
+
+tfoot {
+  background-color: #8cd3cd;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #ddf2f0;
+}
+
+tbody td:first-child {
+  text-align: left;
+}
+
+label {
+  user-select: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+input {
+  padding: 0.75rem 1.5rem;
 }
