@@ -213,15 +213,25 @@
           method="post"
           class="contact-form"
         >
-          <label>
-            Vezetéknév*:
+          <div class="form-item">
+            <!-- <label>
+              Vezetéknév*:
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Vezetéknév"
+                required
+              />
+            </label> -->
+            <label for="last-name" class="form-label">Vezetéknév</label>
             <input
               type="text"
+              class="form-input"
               name="last-name"
-              placeholder="Vezetéknév"
-              required
+              id="last-name"
+              placeholder="Ide írd a vezetékneved!"
             />
-          </label>
+          </div>
           <label>
             Keresztnév*:
             <input

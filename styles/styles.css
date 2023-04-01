@@ -207,7 +207,7 @@ tbody td:first-child {
   text-align: left;
 }
 
-label {
+/* label {
   user-select: none;
   cursor: pointer;
   margin: 10px;
@@ -215,4 +215,30 @@ label {
 
 input {
   padding: 0.75rem 1.5rem;
+} */
+
+.form {
+  font-size: 1.6rem;
+}
+
+.contact-form * {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item > * {
+  align-self: flex-start;
+}
+
+.form-label {
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.form-input {
 }
